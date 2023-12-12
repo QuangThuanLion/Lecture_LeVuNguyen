@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper_information {
+    height: 500px;
+    margin: 0 200px;
+    transform: translateY(10%);
+}
+
+.image_wrapper {
+    background-image: url("https://img.freepik.com/premium-vector/man-with-laptop-studying-working-concept_113065-167.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.title_person {
+    color:darkorange;
+    font-weight:800;
+}
+
+.wrapper_input {
+    margin: 0 auto;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 20px 32px;
+    width: 600px;
+}
+
+.wrapper_input_value {
+    margin: 16px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label_product {
+    line-height: 50px;
+}
+
+.input_type {
+    width: 300px;
+    padding: 14px 8px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btnSubmit {
+    width: 300px;
+    background-color: dodgerblue;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnSubmit:hover {
+    background-color: #FFFF;
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+
+.button_wrapper {
+    text-align: right;
+}
+
+.show_information {
+    margin: 0 auto;
+    padding: 20px 0px;
+    width: 600px;
+}
+
+.show_infor {
+    font-size: 25px;
+}
+
+#show_error{
+    color: red;
+    font-weight: 900;
+}
