@@ -6,7 +6,7 @@ public class MainBai4 {
     public static void main(String[] args) {
         
         //cach 1
-        int numbers[] = new int[5];
+        int[] numbers = new int[5];
         
         numbers[0] = 1;
         numbers[1] = 2;
@@ -25,6 +25,5 @@ public class MainBai4 {
         for (int i = 0 ; i < numbers.length; i ++) {
             System.out.println("numbers: " + numbers2[i]);
         }
-    
     }
 }
