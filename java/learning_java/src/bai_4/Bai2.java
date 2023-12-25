@@ -1,5 +1,6 @@
 package bai_4;
 
+import bai_5.MainBai5;
 import java.util.Scanner;
 
 public class Bai2 {
