@@ -4,8 +4,9 @@ public class Teacher extends Person {
     
     private int salary;
     
-    public Teacher(String name, int age, String address) {
+    public Teacher(String name, int age, String address, int salary) {
         super(name, age, address);
+        this.salary = salary;
     }
     
     public int getSalary() {
@@ -19,5 +20,9 @@ public class Teacher extends Person {
     @Override
     public String display() {
         return super.display().concat("Salary: ").concat(String.valueOf(this.salary));
+    }
+    
+    public void displayHigherSalary() {
+        System.out.println("Name: " + this.getName() + " Salary: " + this.salary);
     }
 }

@@ -22,4 +22,7 @@ public class Student extends Person {
     public String display() {
         return super.display().concat("GPA: ").concat(String.valueOf(this.gpa));
     }
+    public void displayLessThanAge() {
+        System.out.println("Name: " + this.getName() + " Age: " + this.getAge());
+    }
 }
