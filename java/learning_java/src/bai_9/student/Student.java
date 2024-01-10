@@ -53,6 +53,7 @@ public class Student {
                 .append(", class: ").append(this.studentClass)
                 .append(", address: ").append(this.address)
                 .append(", finalScore: ").append(this.finalScore);
+        
         System.out.println(result);
     }
 }
