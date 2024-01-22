@@ -79,4 +79,18 @@ public class Student {
     public float getAvgScore() {
         return (this.finalScore * 2 + this.practiceScore) / 3;
     }
+    
+    public void displayStudentInfo() {
+        StringBuilder result = new StringBuilder();
+        result.append("studentId: ").append(this.studentId)
+                .append(", studentName: ").append(this.studentName)
+                .append(", studentLastName: ").append(this.studentLastName)
+                .append(", gender: ").append(this.gender)
+                .append(", birthDay: ").append(this.birthDay)
+                .append(", address: ").append(this.address)
+                .append(", finalScore: ").append(this.finalScore)
+                .append(", practiceScore: ").append(this.practiceScore)
+                .append(", avgScore: ").append(this.getAvgScore());
+        System.out.println(result);
+    }
 }
